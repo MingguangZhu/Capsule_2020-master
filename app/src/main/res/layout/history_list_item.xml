@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/room_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="Room Name"
+        android:textSize="20dp"
+        android:layout_margin="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       android:gravity="right"
+        android:layout_marginRight="20dp"
+        >
+        <TextView
+            android:id="@+id/startTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="2020-01-08 00:00:00"/>
+        <TextView
+            android:id="@+id/endTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2020-01-09 00:00:00" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
